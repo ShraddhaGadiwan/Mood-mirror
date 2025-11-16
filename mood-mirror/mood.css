@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    border-radius: 50%;
+}
+.outer-container{
+    background-color: rgb(171, 170, 170);
+    height: 350px;
+    width: 100%;
+    margin: 100px 5px 5px;
+    border: 2px solid black;
+}
+.button{
+    background-color: rgb(171, 170, 170);
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn1{  
+    margin-top: 60px;
+    border: 1px solid black;
+    width:200px;
+    height: 50px;
+    background-color:yellow;
+    font-size: large;
+    transition: transform .2s;
+}     
+
+.btn1:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.btn2{ 
+    margin-top: 60px;
+    border: 1px solid black;
+    width:200px;
+    height: 50px;
+    background-color:rgb(70, 248, 245);
+    font-size: large;
+    transition: transform .2s;
+}    
+
+.btn2:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.btn3{ 
+    margin-top: 60px;
+    border: 1px solid black;
+    width:200px;
+    height: 50px;
+    background-color:rgb(253, 126, 71);
+    font-size: large;
+    transition: transform .2s;
+ } 
+ 
+ .btn3:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.btn4{ 
+    margin-top: 60px;
+    border: 1px solid black;
+    width:200px;
+    height: 50px;
+    background-color:rgb(151, 150, 150);
+    font-size: large;
+    transition: transform .2s;
+ } 
+ 
+ .btn4:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.btn5{ 
+    margin-top: 60px;
+    border: 1px solid black;
+    width:200px;
+    height: 50px;
+    background-color:rgb(195, 87, 195);
+    font-size: large;
+    transition: transform .2s;
+ }   
+
+ .btn5:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.inner-container{
+    background-color: rgb(171, 170, 170);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text{
+    background-color: rgb(171, 170, 170);
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.input{ 
+    background-color: rgb(171, 170, 170); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.save{ 
+    font-weight: 300;
+    font-size: 15px;
+ }
+ .save:hover{
+    color: white;
+    background-color: black;
+ }
+.profile-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+ }
+.myprofile{ 
+    font-weight: 300;
+    font-size: 15px;
+ }
+.myprofile:hover{
+    font-weight: 300;
+    font-size: 15px;
+}
+#quoteInput{
+    border: 2px solid black;
+}

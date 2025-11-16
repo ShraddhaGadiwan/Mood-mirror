@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mood.css">
+    <script src="mood.js" defer></script>
+    <title>Mood Mirror - Daily Mood Checker Web App</title>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="button">
+            <button class="btn1" onclick="changeColor(); quotechange()">Happy 😄</button>
+            <button class="btn2" onclick="changeColor2(); quotechange()">Sad 😔</button>
+            <button class="btn3" onclick="changeColor3(); quotechange()">Angry 😡</button>
+            <button class="btn4" onclick="changeColor4(); quotechange()">Tired 😩</button>
+            <button class="btn5" onclick="changeColor5(); quotechange()">Excited 🥳</button>
+        </div>
+        <div class="inner-container">
+            <h4 id="text">Your Mood Says Everything... Select Your Mood!...</h4>
+        </div>
+        <div class="input">
+            <input type="text" id="quoteInput" placeholder="Enter Your Own Quote">
+            <button class="save" onclick="saveQuote()">Save</button>
+        </div>
+        <div class="profile-container">
+            <button class="myprofile" onclick="displaySavedQuotes()">My Quote</button>
+        </div>
+    </div>
+</body>
+</html>
